@@ -10,7 +10,7 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string addressPrefix = "PaCE";
+    const std::string addressPrefix = "PAcE";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
     const std::string ticker = "PACE";
@@ -45,7 +45,7 @@ namespace WalletConfig
 
 
     /* The length of a standard address for your coin */
-    const long unsigned int standardAddressLength = 101;
+    const long unsigned int standardAddressLength = 98;
 
     /* The length of an integrated address for your coin - It's the same as
        a normal address, but there is a paymentID included in there - since
