@@ -30,7 +30,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3          = 11;
 
 // MONEY_SUPPLY - total number coins to be generated
-const uint64_t MONEY_SUPPLY                                  = UINT64_C(1000000000000000);
+const uint64_t MONEY_SUPPLY                                  = UINT64_C(100000000000000);
 const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 187000;
 const size_t ZAWY_DIFFICULTY_V2                              = 0;
 const uint8_t ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION       = 0;
@@ -234,7 +234,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 const char     LATEST_VERSION_URL[]                          = "http://latest.projectace.com";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
-    {  0xb5, 0x0c, 0x4a, 0x6c, 0xcf, 0x53, 0x57, 0x43, 0x66, 0xf9, 0x93, 0xa4, 0xb3, 0xc2, 0x43, 0xe9  }
+    {  0xb5, 0x0c, 0x4a, 0x6c, 0xcf, 0x53, 0x57, 0x43, 0x66, 0xf9, 0x93, 0xa4, 0xb2, 0xc2, 0x43, 0xe9  }
 };
 
 const char* const SEED_NODES[] = {
