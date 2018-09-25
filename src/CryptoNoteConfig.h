@@ -31,13 +31,13 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3          = 11;
 
 // MONEY_SUPPLY - total number coins to be generated
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(10000000000000);
-const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 187000;
+const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 0;
 const size_t ZAWY_DIFFICULTY_V2                              = 0;
-const uint8_t ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION       = 0;
+const uint8_t ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION       = 3;
 
 const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX                 = 1;
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2              = 0;
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3              = 0;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2              = 2;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3              = 3;
 
 const uint64_t DIFFICULTY_WINDOW_V3                          = 60;
 const uint64_t DIFFICULTY_BLOCKS_COUNT_V3                    = DIFFICULTY_WINDOW_V3 + 1;
@@ -94,7 +94,7 @@ const uint64_t MINIMUM_MIXIN_V3                              = 0;
 const uint64_t MAXIMUM_MIXIN_V3                              = 7;
 
 /* The heights to activate the mixin limits at */
-const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 440000;
+const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 100000;
 const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 620000;
 const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 800000;
 
@@ -106,7 +106,7 @@ const uint64_t DEFAULT_MIXIN_V2                              = MAXIMUM_MIXIN_V2;
 const uint64_t DEFAULT_MIXIN_V3                              = MAXIMUM_MIXIN_V3;
 
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(10);
-const uint64_t DEFAULT_DUST_THRESHOLD_V2                     = UINT64_C(0);
+const uint64_t DEFAULT_DUST_THRESHOLD_V2                     = UINT64_C(10);
 
 const uint32_t DUST_THRESHOLD_V2_HEIGHT                      = MIXIN_LIMITS_V2_HEIGHT;
 const uint32_t FUSION_DUST_THRESHOLD_HEIGHT_V2               = 800000;
